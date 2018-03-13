@@ -38,5 +38,9 @@
 *.xcodeproj/
 DerivedData/
 
+# Ignore cruft in the project bundle
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
 # Ignore build products folder
 build/
