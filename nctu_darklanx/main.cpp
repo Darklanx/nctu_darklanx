@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
-
+#include "nctu_darklanx.hpp"
+using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    string s = ",aa,a";
+    vector<string> v = nctu_darklanx::split(s,0,",");
+    for(auto i:v){
+        cout << i << endl;
+    }
     return 0;
 }
