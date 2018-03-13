@@ -41,7 +41,7 @@ DerivedData/
 # Ignore cruft in the project bundle
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
-nctu_darklanx.xcodeproj/
+nctu_darklanx.xcodeproj/*
 
 # Ignore build products folder
 build/
